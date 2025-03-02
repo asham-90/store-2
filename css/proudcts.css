@@ -1,0 +1,154 @@
+.productss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #FCFBF0;
+
+}
+
+
+.productss  .row{
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.product{
+    width: min-content;
+    background-color:white ;
+    border-radius: 20px;
+	 box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    transition: .4s ease;
+
+  
+}
+
+.product .product-img{
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.product-contant{
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-contant p {
+
+    margin-top: 10px;
+    color: #6E6C6D;
+   
+
+}
+
+.product:hover{
+    transform: scale(1.04);
+}
+.bestSelling  {
+    background-color: #869C77;
+    padding: 20px;
+
+}
+
+.addBtn{
+    margin-top:5px ;
+    border: 0;
+    border-radius: 5px;
+    background-color: #869C77;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+
+.bestSelling h2 {
+
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.product-contant a{
+    color: black;
+
+}
+
+.product-contant a:hover{
+    color: #869C77;
+    
+}
+
+
+.my-modal{
+
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+
+
+}
+
+.modal-img{
+
+    width: 40%;
+    background-color: white;
+    padding: 50px 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.4) ;
+    position: relative;
+    
+
+    
+
+
+
+
+}
+
+.arrow-l , .arrow-r , .xmrk{
+
+    position:absolute;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+   
+}
+
+.arrow-l{
+    left: 50px;
+    top: 50%;
+
+}
+
+.arrow-r{
+
+    right: 50px;
+    top: 50%;
+
+}
+
+.xmrk{
+    top: 10px;
+    right: 15px;
+}

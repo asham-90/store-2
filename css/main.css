@@ -1,0 +1,37 @@
+.header h1 {
+    font-size: 51px;
+
+
+}
+
+.header-textcontant{
+
+    width: 50%;
+}
+
+.header{
+    background-color:#FCFBF0 ;
+    height: 500px;
+    display: flex;
+
+
+
+
+    
+
+
+}
+
+.header .row{
+    justify-content: space-around;
+}
+
+.img-man{
+
+    background-color: #869C77;
+    width: 70%;
+    border-radius:50%;
+}
+
+
+

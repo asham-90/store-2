@@ -1,0 +1,26 @@
+.paginatoin{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+ 
+}
+
+.paginatoin  button{
+    font-size: 20px;
+    border: 1px solid #E0E0E0;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+   
+
+}
+
+
+
+
